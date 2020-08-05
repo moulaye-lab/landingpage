@@ -1,0 +1,39 @@
+<h1>Destructiring in js </h1>
+<script>
+
+var array =["moul","mal","mil"];
+
+var[userOne,userTwo,userThree] = array; //destructiring
+var[userOne,...rest]=array //pour afficher seulement les element apres le userOne
+
+</script>
+
+<H1>Destructiring sur les Objets </H1>
+
+<script>
+ var members ={
+
+    userOne:"mark",
+    userTwo:"Lea",
+    userThree:"Justine"
+ }
+var memOne =members.userOne //pour afficher Marc et meme methode pour afficher les autres
+
+
+
+
+
+</script>
+
+<h1>Pour les parametre passer en props </h1>
+<h2>Pour la fonction</h2>
+const{NOM DES PROPS}=props;
+comme ca on peux les utiliser avec leur nom directement 
+ou le placer en paramete de la fonction ({Nom des props})
+
+<h2>Pour la Classe</h2>
+il recupere par defaut le props 
+donc on fais this.props.Nom de la props
+pour faire le destructuring on fait 
+const{NOMS DES PROPS}=this.props;
+dans ce cas de figure la les props seront directement accessible grace a leurs noms 
