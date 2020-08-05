@@ -23,7 +23,7 @@ export default class Testimonials extends Component {
             <h3>Shirley Fultz</h3>
             <h4>Designer</h4>
             <p>
-              It's freeing tofkkf be able to catch up on customized news and not be
+              It's freeing tjjfjfjfjofkkf be able to catch up on customized news and not be
               distracted by a social media element on the same site
             </p>
           </div>
